@@ -1,0 +1,49 @@
+{
+  "name": "to-double-quotes-cli",
+  "version": "0.0.0",
+  "description": "Convert matching single-quotes to double-quotes: I 'love' unicorns => I \"love\" unicorns",
+  "license": "MIT",
+  "repository": "sindresorhus/to-double-quotes-cli",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bin": {
+    "to-double-quotes": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "normalize",
+    "quotes",
+    "quote",
+    "double",
+    "doublequotes",
+    "double-quotes",
+    "text",
+    "convert",
+    "string",
+    "code",
+    "matching",
+    "replace"
+  ],
+  "dependencies": {
+    "get-stdin": "^5.0.0",
+    "meow": "^3.4.2",
+    "to-double-quotes": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
