@@ -10,7 +10,7 @@ const cli = meow(`
 	  $ echo <string> | to-double-quotes
 
 	Example
-	  $ to-double-quotes "I love \'unicorns\'"
+	  $ to-double-quotes "I love 'unicorns'"
 	  I love "unicorns"
 `);
 
