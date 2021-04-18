@@ -2,13 +2,11 @@
 
 > Convert matching single-quotes to double-quotes: `I 'love' unicorns` → `I "love" unicorns`
 
-
 ## Install
 
 ```
 $ npm install --global to-double-quotes-cli
 ```
-
 
 ## Usage
 
@@ -24,12 +22,6 @@ $ to-double-quotes --help
     I love "unicorns"
 ```
 
-
 ## Related
 
 - [to-double-quotes](https://github.com/sindresorhus/to-double-quotes) - API for this module
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
